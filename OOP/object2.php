@@ -13,8 +13,8 @@ $user1->password = "tata123";
 $user1->login($user1->username, $user1->password);
 
 
-// $User1 = new \Data\User\Register(); //dir
+// $User1 = new \Data\User\Register();
 // $User1->create();
 
-// $Admin1 = new \Data\Admin\Register();
+// $Admin1 = new \Data\Admin\Register(); //call overriding class from child
 // $Admin1->create();

@@ -24,5 +24,8 @@ namespace Data\Admin{
         function create(){
             echo "ini adalah function untuk create data admin" . PHP_EOL;
         }
-    }
+    } //this class is overriding from parent user
+    
+
+
 } //create namespace to different class register from user and admin

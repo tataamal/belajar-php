@@ -2,9 +2,9 @@
 
 class Manager
 {
-    var string $username;
-    var string $position;
-    var string $years;
+    protected string $username;//this is implementation of protexted visibility
+    protected string $position;
+    protected string $years;
     function introduction(string $username, string $position, string $years) {
         echo "Hello, My Name is $this->username, i am is a $this->position in Alamanda Group for periode $this->years";
     }

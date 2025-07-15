@@ -2,7 +2,7 @@
 
 require_once "Data/manager.php";
 
-$user1 = new Greeting("Niltal Amal", "Backend Developer", "soon");
+$user1 = new Greeting("Niltal Amal", "Backend Developer",);
 // $user1->username = "Niltal Amal";
 // $user1->position = "Backend Developer";
 // $user1->years = "soon";
